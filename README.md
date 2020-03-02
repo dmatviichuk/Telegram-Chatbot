@@ -8,7 +8,7 @@ A simple Telegram chatbot written in Python using [python-telegram-bot](https://
   * [Setup Dialogflow](#setup-dialogflow)
 
 
-## Installation:
+### Installation:
 Linux:
 ```bash
 sudo pacman -S python
@@ -27,7 +27,7 @@ pip install apiai python-telegram-bot json
 Change your api token from Dialogflow and Telegram
 python Chatbot.py
 ```
-## Setup Dialogflow:
+### Setup Dialogflow:
 First of all, go and register on Dialogflow (just log in using your Google account). Immediately after authorization, we get to the control panel.
 ![1](https://i.imgur.com/ZUVTIQo.jpg)
 Click on the **Create agent** button and fill in the fields as you wish:
