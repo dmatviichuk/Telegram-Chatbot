@@ -8,24 +8,26 @@ A simple Telegram chatbot written in Python using [python-telegram-bot](https://
   * [Setup Dialogflow](#setup-dialogflow)
 
 
-# Installation:
-* Linux:
-  * `sudo pacman -S python`
-  * `pip install apiai python-telegram-bot json`
-  * `git clone https://github.com/dmatviichuk/Telegram-Chatbot`
-  * `cd Telegram-Chatbot/`
-  * Change your api token from Dialogflow and Telegram
-  * `python Chatbot.py`
-
-* Windows:
-  * Download Python 3.6 from [here](https://www.python.org/downloads/release/python-360/)
-  * Launch installer, click `add python to PATH`
-  * Open cmd or powershell
-  * `pip install apiai python-telegram-bot json`
-  * Change your api token from Dialogflow and Telegram
-  * `python Chatbot.py`
-
-# Setup Dialogflow:
+## Installation:
+Linux:
+```bash
+sudo pacman -S python
+pip install apiai python-telegram-bot json
+git clone https://github.com/dmatviichuk/Telegram-Chatbot
+cd Telegram-Chatbot/
+Change your api token from Dialogflow and Telegram
+python Chatbot.py
+```
+Windows:
+```bash
+Download Python 3
+Launch installer, click add python to PATH
+Open cmd or powershell
+pip install apiai python-telegram-bot json
+Change your api token from Dialogflow and Telegram
+python Chatbot.py
+```
+## Setup Dialogflow:
 First of all, go and register on Dialogflow (just log in using your Google account). Immediately after authorization, we get to the control panel.
 ![1](https://i.imgur.com/ZUVTIQo.jpg)
 Click on the **Create agent** button and fill in the fields as you wish:
